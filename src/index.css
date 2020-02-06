@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.header{
+  background: #ff0000;
+  padding:0;
+}
+.header h1{
+  margin:0;
+  color: #fff;
+  padding:0;
+}
+
+/* custom
+*/
+
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.header{
+  padding: 10px;
+  background: #E11931;
+}
+ .head-left{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+.banner {
+  margin-bottom: 20px;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.product{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.list-product{
+
+}
+.list-product img{
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+._list_product{
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+._list_product h1{
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+._list_product h2{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: #000;
+  font-size: 12px;
+}
+._list_product a{
+  color: #ff0000;
+  list-style: none;
+  text-decoration: none;
+}
+._list_product a:hover{
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+}
+._list_product small{
+  font-size: 14px;
+}
+
+.btn-srh{
+  padding: 10px;
+  display: contents;
+
+}
+.btn-custom{
+  padding: 10px;
+  background: #fff;
+  font-size: 20px;
+}
+.search-form .input-group .input-group-addon{
+  padding: 0;margin: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  background: #FFF;
+  border: none;
+}
+.search-form .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle){
+  width: auto;
+  height: 35px;
+  float: right;
+  font-size: 16px;
+}
+.search-form .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+  border: 1px #eee solid;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  background: #eee;
+}
+.footer{
+  padding: 20px;
+  text-align: center;
+  background: #ff0000;
+}
+.footer h1{
+  text-align: center;
+  color: #fff;
+}
